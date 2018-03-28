@@ -1,5 +1,10 @@
-document.getElementById("myBtn").addEventListener("click", myFunction);
+function doit() {
+  var but = document.getElementById("myBtn") .addEventListener("click", myFunction);
+
+}
+
  function myFunction() {
-   var rrr = document.getElementsById('myBtn').value
-   console.log(rrr);
+   var rrr = document.getElementById("val").value
+console.log(rrr);
+
 }
